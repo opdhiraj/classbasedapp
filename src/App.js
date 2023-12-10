@@ -4,12 +4,14 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import ParentComp from "./components/ParentComp";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter />
+        <ParentComp />
+        {/* <Counter /> */}
         {/* <Message /> */}
         {/* <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
